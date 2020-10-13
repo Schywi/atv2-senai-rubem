@@ -1,0 +1,22 @@
+Algoritmo contatos_nome
+Var ashe,draven,nami,leona,soraka,tresh,diana,akali,neeko,teemo: caracter
+nome,sobrenome:caracter
+ano_nascimento,ano_atual:inteiro
+
+Inicio
+
+Escreval("Digite seu nome")
+Leia(nome)
+Escreval("Digite seu sobrenome")
+Leia(sobrenome)
+Escreval("Digite seu ano de nascimento")
+Leia(ano_nascimento)
+Escreval("Digite o ano atual")
+Leia(ano_atual)
+
+idade <- ano_atual - ano_nascimento
+
+Escreval("O seu nome completo é " + nome + sobrenome ",
+A sua idade atual é " + idade ) 
+
+Fim.

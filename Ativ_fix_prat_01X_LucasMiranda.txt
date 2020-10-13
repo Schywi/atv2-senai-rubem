@@ -1,0 +1,15 @@
+Algoritmo calculo_gasolina
+Var distancia,tempo,velocidade:real
+litros_usados: real
+Inicio
+Escreval("O tempo gasto em horas")
+Leia(tempo)
+Escreval("A velocidade do velocimetro")
+Leia(velocidade)
+distancia <- tempo*velocidade
+litros_usados <- distancia/12
+Escreval("O tempo gasto em horas foi " + tempo)
+Escreval("A velocidade media de viajem foi " + velocidade)
+Escreval(" A distancia total percorrida foi " + distancia)
+Escreval("A quantidade de litros usada foi " + litros_usados)
+Fim.

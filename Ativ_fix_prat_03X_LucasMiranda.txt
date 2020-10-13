@@ -1,0 +1,8 @@
+Algoritmo custo_carro
+Var custo_carro,custo_fabrica:real
+Inicio
+Escreval("Digite o preço de fabrica do carro")
+Leia(custo_fabrica)
+custo_carro <- custo_fabrica*(28/100)*(45/100)
+Escreval("O preço do carro é " + custo_carro)
+Fim.
